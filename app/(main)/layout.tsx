@@ -8,9 +8,6 @@ export default function MainLayout({
 }) {
     return (
         <div className="flex flex-col h-screen">
-            <head>
-                <script src="https://cdn.tailwindcss.com"></script>
-            </head>
             {/* Thêm pb-16 hoặc pb-20 tùy vào độ cao BottomTab của bạn */}
             <main className="flex-1 overflow-auto pb-20">
                 {children}
