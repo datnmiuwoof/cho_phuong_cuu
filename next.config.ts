@@ -12,6 +12,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export', // Xuất file tĩnh để chạy trên GitHub Pages
+  basePath: '/cho_phuong_cuu', // Tên repository của bạn
   images: {
     unoptimized: true, // Bỏ qua tối ưu ảnh (GitHub Pages không hỗ trợ)
   },
