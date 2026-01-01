@@ -215,8 +215,8 @@ export default function ProfileScreen() {
                             </button>
                             <button
                                 onClick={() => {
-                                    router.push('/sellers/register');
-                                    upgradeToSeller();
+                                    router.push('/cho_phuong_cuu/sellers/register');
+                                    // upgradeToSeller();
                                     setShowUpgradeModal(false);
                                 }}
                                 className="flex-1 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 font-semibold text-white shadow-lg"
