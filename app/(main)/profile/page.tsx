@@ -92,6 +92,7 @@ export default function ProfileScreen() {
             {!isSeller && (
                 <div className="px-5 mt-4">
                     <button
+                        type="button"
                         onClick={() => setShowUpgradeModal(true)}
                         className="w-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-4 flex items-center justify-between shadow-lg active:scale-98 transition-transform"
                     >
